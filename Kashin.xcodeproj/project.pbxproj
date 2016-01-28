@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B3E1B5A1C598D4600D537A0 /* teamkashin_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E1B591C598D4600D537A0 /* teamkashin_logo.png */; };
+		0B68F41E1C5A97F000CFED16 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B68F41D1C5A97F000CFED16 /* SignInViewController.swift */; };
+		0B68F4201C5A982B00CFED16 /* FirstChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B68F41F1C5A982B00CFED16 /* FirstChoiceViewController.swift */; };
+		0B68F4221C5A983F00CFED16 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B68F4211C5A983F00CFED16 /* SignUpViewController.swift */; };
 		0BA5F16A1C58362800402710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F1691C58362800402710 /* AppDelegate.swift */; };
 		0BA5F16C1C58362800402710 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F16B1C58362800402710 /* FirstViewController.swift */; };
 		0BA5F16E1C58362800402710 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F16D1C58362800402710 /* SecondViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		0B3E1B591C598D4600D537A0 /* teamkashin_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamkashin_logo.png; sourceTree = "<group>"; };
+		0B68F41D1C5A97F000CFED16 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0B68F41F1C5A982B00CFED16 /* FirstChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstChoiceViewController.swift; path = ../FirstChoiceViewController.swift; sourceTree = "<group>"; };
+		0B68F4211C5A983F00CFED16 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0BA5F1661C58362800402710 /* Kashin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA5F1691C58362800402710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BA5F16B1C58362800402710 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				0BA5F1691C58362800402710 /* AppDelegate.swift */,
+				0B68F41F1C5A982B00CFED16 /* FirstChoiceViewController.swift */,
+				0B68F4211C5A983F00CFED16 /* SignUpViewController.swift */,
+				0B68F41D1C5A97F000CFED16 /* SignInViewController.swift */,
 				0BA5F16B1C58362800402710 /* FirstViewController.swift */,
 				0BA5F16D1C58362800402710 /* SecondViewController.swift */,
 				0BA5F16F1C58362800402710 /* Main.storyboard */,
@@ -150,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B68F4221C5A983F00CFED16 /* SignUpViewController.swift in Sources */,
+				0B68F41E1C5A97F000CFED16 /* SignInViewController.swift in Sources */,
+				0B68F4201C5A982B00CFED16 /* FirstChoiceViewController.swift in Sources */,
 				0BA5F16E1C58362800402710 /* SecondViewController.swift in Sources */,
 				0BA5F16A1C58362800402710 /* AppDelegate.swift in Sources */,
 				0BA5F16C1C58362800402710 /* FirstViewController.swift in Sources */,
