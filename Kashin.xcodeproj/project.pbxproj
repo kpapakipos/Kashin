@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B3E1B5A1C598D4600D537A0 /* teamkashin_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E1B591C598D4600D537A0 /* teamkashin_logo.png */; };
 		0BA5F16A1C58362800402710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F1691C58362800402710 /* AppDelegate.swift */; };
 		0BA5F16C1C58362800402710 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F16B1C58362800402710 /* FirstViewController.swift */; };
 		0BA5F16E1C58362800402710 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5F16D1C58362800402710 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B3E1B591C598D4600D537A0 /* teamkashin_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamkashin_logo.png; sourceTree = "<group>"; };
 		0BA5F1661C58362800402710 /* Kashin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA5F1691C58362800402710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BA5F16B1C58362800402710 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3E1B5B1C598D4F00D537A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E1B591C598D4600D537A0 /* teamkashin_logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		0BA5F15D1C58362800402710 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 				0BA5F1721C58362800402710 /* Assets.xcassets */,
 				0BA5F1741C58362800402710 /* LaunchScreen.storyboard */,
 				0BA5F1771C58362800402710 /* Info.plist */,
+				0B3E1B5B1C598D4F00D537A0 /* Resources */,
 			);
 			path = Kashin;
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3E1B5A1C598D4600D537A0 /* teamkashin_logo.png in Resources */,
 				0BA5F1761C58362800402710 /* LaunchScreen.storyboard in Resources */,
 				0BA5F1731C58362800402710 /* Assets.xcassets in Resources */,
 				0BA5F1711C58362800402710 /* Main.storyboard in Resources */,
@@ -254,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kashin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kashin.Kashin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -265,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kashin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kashin.Kashin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +304,7 @@
 				0BA5F17C1C58362800402710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
